@@ -32,6 +32,8 @@ void main() {
   print(num1);
   print(num2);
 
-  
+  // Bool for boolean value
+  bool isLogin = true;
+  isLogin = false;
 
 }
