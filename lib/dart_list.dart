@@ -17,5 +17,8 @@ main() {
 
   var listB = [100, 200, 300, 400, 500, 600, 700, 800, 900];
   listB.replaceRange(0, 3, [10, 20, 30, 40]);
-  print("$listB"); 
+  print("$listB");
+
+  listB.removeLast();
+  print("$listB");
 }
