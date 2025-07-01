@@ -1,11 +1,11 @@
 void main() {
   print("Hello World!");
 
-  Human()
+  Human();
 }
 
 class Human{
 
-  Human()
+  Human();
 
 }
