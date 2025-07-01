@@ -2,13 +2,19 @@ void main() {
   print("Hello World!");
 
   var myC = myClass();
-  myC.printName(); // Func calling
+  myC.printName("Rex"); // Func calling
+
+  myC.printName("Anonto");
+
+  myC.printName("Shafayat");
+
+  myC.printName("Fahim");
 }
 
 class myClass {
 
-  void printName() { //Declaration
-    print("Rex"); //Definition
+  void printName(String name) { //Declaration
+    print(name); //Definition
 
   }
 }
