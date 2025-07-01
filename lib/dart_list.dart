@@ -8,6 +8,7 @@ main() {
   names.add("Ahmed");
   names.add("Rahman");
   names.addAll(listA);
-  
+
+  names.insert(2, 100); //Replaces the value of number 2 index.
   print("$names");
 }
