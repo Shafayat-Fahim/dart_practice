@@ -11,4 +11,8 @@ void main() {
   a = 7; //Assigning value again
   print(a);
 
+  //Inline declaration of variable
+  String name = "Rex"; //String data type
+  print("The name of the user is $name!");
+
 }
