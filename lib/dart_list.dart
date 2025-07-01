@@ -7,8 +7,15 @@ main() {
   names.add("Khan");
   names.add("Ahmed");
   names.add("Rahman");
-  names.addAll(listA);
-
-  names.insert(2, 100); //Replaces the value of number 2 index.
+  names.add("Azad");
+  names.add("Uddin");
+  // names.addAll(listA);
+  names[2] = "Rahaman"; //Replaces the value of number 2 index.
+  // names.insert(2, 100); //Inserts the value to number 2 index. Previous value of number 2 index goes to number 3 index.
+  // names.insertAll(3, listA);
   print("$names");
+
+  var listB = [100, 200, 300, 400, 500, 600, 700, 800, 900];
+  listB.replaceRange(0, 3, [10, 20, 30, 40]);
+  print("$listB"); 
 }
