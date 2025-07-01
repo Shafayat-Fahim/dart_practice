@@ -21,4 +21,9 @@ void main() {
 
   print(longValue);
 
+  //Using 'double' to store floating value
+  double percentage = 71.17;
+  print(percentage);
+  
+
 }
