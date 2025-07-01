@@ -7,6 +7,7 @@ main() {
   names.add("Khan");
   names.add("Ahmed");
   names.add("Rahman");
-
+  names.addAll(listA);
+  
   print("$names");
 }
