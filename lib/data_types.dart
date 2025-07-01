@@ -5,7 +5,10 @@ void main() {
   int a;  //By putting the '?' next to 'int' allows us to store null-value on 'a'
 
   //Assign value
-  a = 5;
+  a = 5; //Initialization
+  print(a);
+
+  a = 7; //Assigning value again
   print(a);
 
 }
