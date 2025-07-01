@@ -24,6 +24,14 @@ void main() {
   //Using 'double' to store floating value
   double percentage = 71.17;
   print(percentage);
+
+  //Using 'num' that can store both int and double
+  num num1 = 48574;
+  num num2 = 453.4;
+
+  print(num1);
+  print(num2);
+
   
 
 }
