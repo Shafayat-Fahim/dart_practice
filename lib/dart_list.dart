@@ -23,6 +23,9 @@ main() {
   // listB.remove(30); //Removes the exact value.
   // listB.removeAt(0); // Removes value from the index.
   // listB.removeAt(0);
-     listB.removeRange(0, 3);
+  // listB.removeAt(0);
   print("$listB");
+
+  print("length: ${listB.length}");
+  
 }
