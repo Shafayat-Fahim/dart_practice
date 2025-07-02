@@ -6,6 +6,8 @@ void main() {
     "key4" : true
   };
 
+  map1["key1"] = "Raafuu"; //Overwriting the key value
+
   print(map1); //Map printing
 
   print(map1["key1"]); //Printing the value of a specific key
