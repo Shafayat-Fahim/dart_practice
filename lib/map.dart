@@ -8,6 +8,8 @@ void main() {
 
   map1["key1"] = "Raafuu"; //Overwriting the key value
 
+  map1["Key1"] = "Rafta"; //Map is case sensitive
+
   print(map1); //Map printing
 
   print(map1["key1"]); //Printing the value of a specific key
