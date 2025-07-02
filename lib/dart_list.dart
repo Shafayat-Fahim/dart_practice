@@ -16,11 +16,12 @@ main() {
   print("$names");
 
   var listB = [100, 200, 300, 400, 500, 600, 700, 800, 900];
-  listB.replaceRange(0, 3, [10, 20, 30, 40]);
-  print("$listB");
-
-  listB.removeLast();
-  listB.remove(30); //Removes the exact value.
+  // listB.replaceRange(0, 3, [10, 20, 30, 40]);
+  // print("$listB");
+  //
+  // listB.removeLast();
+  // listB.remove(30); //Removes the exact value.
   listB.removeAt(0); // Removes value from the index.
+  listB.removeAt(0);
   print("$listB");
 }
