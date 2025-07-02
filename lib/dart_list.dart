@@ -29,4 +29,5 @@ main() {
   print("length: ${listB.length}");
   print("reversed: ${listB.reversed}");
   print("first: ${listB.first}");
+  print("lasst: ${listB.last}");
 }
