@@ -29,5 +29,6 @@ main() {
   print("length: ${listB.length}");
   print("reversed: ${listB.reversed}");
   print("first: ${listB.first}");
-  print("lasst: ${listB.last}");
+  print("last: ${listB.last}");
+  print("is Empty: ${listB.isEmpty}");
 }
