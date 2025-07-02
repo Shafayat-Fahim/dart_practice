@@ -7,4 +7,6 @@ void main() {
   };
 
   print(map1); //Map printing
+
+  print(map1["key1"]); //Printing the value of a specific key
 }
