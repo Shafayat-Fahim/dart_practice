@@ -32,4 +32,5 @@ main() {
   print("last: ${listB.last}");
   print("is Empty: ${listB.isEmpty}");
   print("is Not Empty: ${listB.isNotEmpty}");
+  print("Element at index 2: ${listB.elementAt(2)}");
 }
