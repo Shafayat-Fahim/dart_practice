@@ -20,5 +20,6 @@ main() {
   print("$listB");
 
   listB.removeLast();
+  listB.remove(30); //Removes the exact value.
   print("$listB");
 }
