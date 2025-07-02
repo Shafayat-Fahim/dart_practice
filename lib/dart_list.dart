@@ -27,5 +27,6 @@ main() {
   print("$listB");
 
   print("length: ${listB.length}");
-  
+  print("reversed: ${listB.reversed}");
+
 }
