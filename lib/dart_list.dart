@@ -31,4 +31,5 @@ main() {
   print("first: ${listB.first}");
   print("last: ${listB.last}");
   print("is Empty: ${listB.isEmpty}");
+  print("is Not Empty: ${listB.isNotEmpty}");
 }
