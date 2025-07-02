@@ -21,5 +21,6 @@ main() {
 
   listB.removeLast();
   listB.remove(30); //Removes the exact value.
+  listB.removeAt(0); // Removes value from the index.
   print("$listB");
 }
