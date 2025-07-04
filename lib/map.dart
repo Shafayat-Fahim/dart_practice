@@ -27,4 +27,7 @@ void main() {
   print(map2.keys);
   print(map2.values);
   print(map2.length);
+  print(map2.containsKey("Name"));
+  print(map2.containsKey("sex"));
+  
 }
