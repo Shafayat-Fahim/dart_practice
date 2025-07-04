@@ -24,5 +24,7 @@ void main() {
   print(map2);
   print(map2.isNotEmpty);
   print(map2.isEmpty);
-  
+  print(map2.keys);
+  print(map2.values);
+  print(map2.length);
 }
