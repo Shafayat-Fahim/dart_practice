@@ -31,4 +31,8 @@ void main() {
   print(map2.containsKey("sex"));
   print(map2.containsValue("Dhaka"));
   print(map2.containsValue("Sylhet"));
+  print(map2.remove("single"));
+  print(map2);
+  print(map2.remove("Single"));
+  print(map2);
 }
