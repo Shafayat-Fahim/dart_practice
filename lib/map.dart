@@ -14,6 +14,12 @@ void main() {
 
   print(map1["key1"]); //Printing the value of a specific key
 
-  var map2 = Map();
-  map2["Name"]
+  var map2 = Map(); //Map object
+  map2["Name"] = "Rafta";
+  map2["City"] = "Dhaka";
+  map2["Country"] = "Bangladesh";
+  map2["Phone"] = 0123456789;
+  map2["Single"] = false;
+  
+  print(map2); 
 }
