@@ -21,5 +21,8 @@ void main() {
   map2["Phone"] = 0123456789;
   map2["Single"] = false;
   
-  print(map2); 
+  print(map2);
+  print(map2.isNotEmpty);
+  print(map2.isEmpty);
+  
 }
