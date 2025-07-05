@@ -20,3 +20,6 @@ void main() {
     print("x is less than 100");
   }
 }
+
+// && - and
+// || - or
