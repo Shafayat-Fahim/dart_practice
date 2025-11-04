@@ -5,4 +5,6 @@ void main() {
 
   a = 17;
   print(a);
+
+  String name = "Rex"; //Inline declaration
 }
