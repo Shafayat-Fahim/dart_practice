@@ -17,5 +17,7 @@ void main() {
   num productId = 17;
   print("The rate of the product $productId is: $rate");
 
+  bool isLogin = false; // for boolean value
+
   String name = "Rex"; // Inline declaration
 }
