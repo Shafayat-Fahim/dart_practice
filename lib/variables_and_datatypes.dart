@@ -7,11 +7,15 @@ void main() {
   print(a);
 
   BigInt longValue;
-  longValue = BigInt.parse('2457294572475245724572457245723457'); //'BigInt' to store large numbers.
+  longValue = BigInt.parse('2457294572475245724572457245723457'); // 'BigInt' to store large numbers
   print(longValue);
 
-  double marks = 97.99;
+  double marks = 97.99; // 'double' to store floating point numbers
   print(marks);
 
-  String name = "Rex"; //Inline declaration
+  num rate = 66.50; // 'num' can keep both 'double' and 'int' values
+  num productId = 17;
+  print("The rate of the product $productId is: $rate");
+
+  String name = "Rex"; // Inline declaration
 }
