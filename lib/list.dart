@@ -12,6 +12,7 @@ void main() {
   names.add("Tarique");
   names.addAll(listMarks); //'addAll' adds an existing list to the list
   names.insertAll(3, notableLeaders); //inserts a full list in the position of declared index
+  names[0] = "Ziaur Rahman"; //update/edit
 
 
   print(listMarks);
