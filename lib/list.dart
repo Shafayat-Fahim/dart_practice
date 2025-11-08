@@ -7,6 +7,7 @@ void main() {
   names.add("Zia");
   names.add("Khaleda");
   names.add("Tarique");
+  names.addAll(listMarks); //'addAll' adds an existing list to the list
 
   print(listMarks);
   print(names);
