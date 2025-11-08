@@ -11,6 +11,10 @@ void main() {
 }
 
 class myClass{
+  myClass() { //Default constructor
+    print("Welcome to Bangladesh!");
+  }
+  
   void printName() { //Declaration
     print("Ziaur Rahman"); //Definition
   }
