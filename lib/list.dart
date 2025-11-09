@@ -25,5 +25,8 @@ void main() {
   marks.removeLast(); //removes the value of last index
   print(marks);
 
+  marks.removeAt(2);
+  print(marks);
+
 
 }
