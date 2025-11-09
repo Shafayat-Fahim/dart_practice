@@ -34,6 +34,7 @@ void main() {
   print("Length: ${numbers.length}");
   print("Reversed: ${numbers.reversed}");
   print("First: ${numbers.first}");
+  print("Last: ${numbers.last}");
 
 
 }
