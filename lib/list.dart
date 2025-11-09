@@ -36,6 +36,7 @@ void main() {
   print("First: ${numbers.first}");
   print("Last: ${numbers.last}");
   print("Is Empty: ${numbers.isEmpty}");
+  print("Is not Empty: ${numbers.isNotEmpty}");
 
 
 }
