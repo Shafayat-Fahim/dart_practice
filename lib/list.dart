@@ -15,7 +15,7 @@ void main() {
   names[0] = "Ziaur Rahman"; //update/edit
 
   var marks = [1, 2, 3, 4, 5];
-  marks.replaceRange(0, 3, [10, 20, 30, 40]);
+  marks.replaceRange(0, 3, [10, 20, 30]);
 
 
   print(listMarks);
@@ -25,8 +25,13 @@ void main() {
   marks.removeLast(); //removes the value of last index
   print(marks);
 
-  marks.removeAt(2);
+  marks.removeAt(2); //removes the value at mentioned index
   print(marks);
+
+
+  var numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17];
+
+  print("Length: ${numbers.length}");
 
 
 }
