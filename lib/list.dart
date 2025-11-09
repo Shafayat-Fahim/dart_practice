@@ -14,7 +14,16 @@ void main() {
   names.insertAll(3, notableLeaders); //inserts a full list in the position of declared index
   names[0] = "Ziaur Rahman"; //update/edit
 
+  var marks = [1, 2, 3, 4, 5];
+  marks.replaceRange(0, 3, [10, 20, 30, 40]);
+
 
   print(listMarks);
   print(names);
+  print(marks);
+
+  marks.removeLast(); //removes the value of last index
+  print(marks);
+
+
 }
