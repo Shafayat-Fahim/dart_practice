@@ -7,4 +7,5 @@ void main() {
   };
 
   print(map_name);
+  print(map_name["Key2"]); //map value finding by key
 }
