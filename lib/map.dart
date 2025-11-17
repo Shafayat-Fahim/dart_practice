@@ -9,4 +9,5 @@ void main() {
   print(map_name);
   print(map_name["Key2"]); //map value finding by key
   print(map_name["Key5"]); //returns 'null' for not found key
+  print(map_name["key2"]); //returns 'null' because Dart key is case sensitive 
 }
