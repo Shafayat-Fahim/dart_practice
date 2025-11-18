@@ -21,5 +21,6 @@ void main() {
   mapEmployee["YearsOfExp"] = 7;
   mapEmployee["City"] = "Dhaka";
   
-  print(mapEmployee.isNotEmpty); //checks if the map is not empty
+  print(mapEmployee.isNotEmpty); //checks that the map is not empty
+  print(mapEmployee.isEmpty); //checks that the map is empty
 }
