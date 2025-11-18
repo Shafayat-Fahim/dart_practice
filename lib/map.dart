@@ -23,4 +23,5 @@ void main() {
   
   print(mapEmployee.isNotEmpty); //checks that the map is not empty
   print(mapEmployee.isEmpty); //checks that the map is empty
+  print(mapEmployee.length); //returns the sum of all keys
 }
