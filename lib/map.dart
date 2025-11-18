@@ -30,4 +30,9 @@ void main() {
   print(mapEmployee.containsKey("name"));
   print(mapEmployee.containsValue(001)); //value exists or not
   print(mapEmployee.containsValue(006));
+  print(mapEmployee.remove("YearsOfExp")); //deletes the mentioned key
+  print(mapEmployee.remove("YearsExp")); //returns 'null' when the key does not exist
+
+  print(mapEmployee);
+
 }
