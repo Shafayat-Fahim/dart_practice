@@ -26,4 +26,6 @@ void main() {
   print(mapEmployee.length); //returns the sum of all keys
   print(mapEmployee.keys); //returns all the keys
   print(mapEmployee.values); //returns all the values
+  print(mapEmployee.containsKey("Name")); //key exists or not
+  print(mapEmployee.containsKey("name"));
 }
