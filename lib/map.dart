@@ -28,4 +28,6 @@ void main() {
   print(mapEmployee.values); //returns all the values
   print(mapEmployee.containsKey("Name")); //key exists or not
   print(mapEmployee.containsKey("name"));
+  print(mapEmployee.containsValue(001)); //value exists or not
+  print(mapEmployee.containsValue(006));
 }
