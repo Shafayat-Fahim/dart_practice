@@ -6,5 +6,12 @@ void main() {
   //
   // print(name);
 
-  final var city = "Dhaka"; //can not assign var in final
+  // final var city = "Dhaka"; //can not assign var in final
+
+  final String city;
+
+  city = "Dhaka";
+  city = "Khulna"; //we can assign value to final only once
+
+  print(city);
 }
