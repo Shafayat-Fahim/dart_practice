@@ -6,5 +6,5 @@ void main() {
   //
   // print(name);
 
-
+  final var city = "Dhaka"; //can not assign var in final
 }
